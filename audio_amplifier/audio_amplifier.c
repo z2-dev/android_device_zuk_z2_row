@@ -29,7 +29,7 @@
 #include <dlfcn.h>
 #include <sys/ioctl.h>
 
-#define LOG_TAG "ham-tfa98xx"
+#define LOG_TAG "tfa98xx"
 #include <log/log.h>
 
 #include <hardware/audio_amplifier.h>
@@ -169,7 +169,7 @@ amplifier_module_t HAL_MODULE_INFO_SYM = {
         .module_api_version = AMPLIFIER_MODULE_API_VERSION_0_1,
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = AMPLIFIER_HARDWARE_MODULE_ID,
-        .name = "Ham amplifier HAL",
+        .name = "Audio amplifier HAL",
         .author = "The CyanogenMod Open Source Project",
         .methods = &hal_module_methods,
     },
