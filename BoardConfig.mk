@@ -23,9 +23,9 @@
 
 #TARGET_BUILD_VARIANT:=user
 
-TARGET_OTA_ASSERT_DEVICE := z2,Z2,z2plus,z2_plus
+TARGET_OTA_ASSERT_DEVICE := z2,Z2,z2row,z2_row
 
-PLATFORM_PATH := device/zuk/z2_plus
+PLATFORM_PATH := device/zuk/z2_row
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
@@ -74,7 +74,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := n7x-caf_z2_plus_defconfig
+TARGET_KERNEL_CONFIG := n7x-caf_z2_row_defconfig
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
 
 # QCOM hardware
@@ -149,8 +149,8 @@ SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 # WITH_DEXPREOPT := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_z2_plus
-TARGET_RECOVERY_DEVICE_MODULES := libinit_z2_plus
+TARGET_INIT_VENDOR_LIB := libinit_z2_row
+TARGET_RECOVERY_DEVICE_MODULES := libinit_z2_row
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Keystore
@@ -213,4 +213,4 @@ WIFI_DRIVER_MODULE_NAME := "wlan"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/zuk/z2_plus/BoardConfigVendor.mk
+-include vendor/zuk/z2_row/BoardConfigVendor.mk

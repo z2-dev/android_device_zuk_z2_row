@@ -73,10 +73,10 @@ void vendor_load_properties() {
     int rc;
 
     rc = property_get("ro.product.device", device, NULL);
-    if (!rc || strncmp(device, "z2_plus", PROP_VALUE_MAX))
+    if (!rc || strncmp(device, "z2_row", PROP_VALUE_MAX))
         return;
 
-        property_set("ro.product.model", "Z2 Plus");
+        property_set("ro.product.model", "Z2 Pro");
 
     init_alarm_boot_properties();
 }
