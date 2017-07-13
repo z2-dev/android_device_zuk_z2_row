@@ -476,4 +476,7 @@
     <integer name="config_proximityCheckTimeout">3000</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+    <!-- Whether home button can wake device -->
+    <bool name="config_homeCanWake">true</bool>
+
 </resources>
