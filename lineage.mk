@@ -20,8 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z2_row device
 $(call inherit-product, device/zuk/z2_row/device.mk)
 
-# Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_z2_row
 PRODUCT_DEVICE := z2_row
