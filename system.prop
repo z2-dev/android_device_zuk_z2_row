@@ -1,5 +1,6 @@
 # Audio
 af.fast_track_multiplier=1
+af.resampler.quality=7
 audio_hal.period_size=192
 audio.dolby.ds2.enabled=false
 audio.dolby.ds2.hardbypass=false
