@@ -16,7 +16,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/zuk/z2_plus/z2_plus-vendor.mk)
+$(call inherit-product, vendor/zuk/z2_row/z2_row-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

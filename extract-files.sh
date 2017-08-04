@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=z2_plus
+DEVICE=z2_row
 VENDOR=zuk
 
 # Load extract_utils and do some sanity checks

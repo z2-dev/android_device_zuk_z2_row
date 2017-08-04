@@ -18,13 +18,13 @@
 # Inherit from common msm8996-common
 -include device/zuk/msm8996-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/zuk/z2_plus
+DEVICE_PATH := device/zuk/z2_row
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := z2_plus
+TARGET_OTA_ASSERT_DEVICE := z2_row
 
 # Kernel
-TARGET_KERNEL_CONFIG := z2_plus_defconfig
+TARGET_KERNEL_CONFIG := z2_row_defconfig
 
 # Inherit from the proprietary version
--include vendor/zuk/z2_plus/BoardConfigVendor.mk
+-include vendor/zuk/z2_row/BoardConfigVendor.mk

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=z2_plus
+DEVICE=z2_row
 VENDOR=zuk
 
 INITIAL_COPYRIGHT_YEAR=2016
@@ -40,7 +40,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
 # Copyright headers and guards
-write_headers "z2_plus"
+write_headers "z2_row"
 
 
 write_makefiles "$MY_DIR"/proprietary-files.txt

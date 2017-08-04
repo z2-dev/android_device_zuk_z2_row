@@ -1,4 +1,4 @@
-Device configuration for ZUK Z2 (z2_plus).
+Device configuration for ZUK Z2 (z2_row).
 
 Based on the work of davidevinavil and Fedor917.
 
