@@ -7,9 +7,7 @@ vendor/lib/libslimclient.so
 vendor/lib64/libimscamera_jni.so
 
 # Other files (todo categorize)
-app/TimeService/TimeService.apk
 bin/hvdcp_opti
-bin/time_daemon
 etc/calib.cfg
 etc/firmware/a225p5_pm4.fw
 etc/firmware/a225_pfp.fw
