@@ -3,8 +3,37 @@ vendor/lib64/libquipc_os_api.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libslimclient.so
 
-# IMS
-vendor/lib64/libimscamera_jni.so
+# Camera actuators
+vendor/lib/libactuator_ak7371.so
+
+# Camera chromatix
+vendor/lib/libchromatix_s5k2m8sx_common.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_90.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_liveshot.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_preview.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so
+vendor/lib/libchromatix_s5k2m8sx_cpp_video.so
+vendor/lib/libchromatix_s5k2m8sx_default_preview_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_default_video_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_default_video.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_120_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_120.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_60_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_60.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_90_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_hfr_90.so
+vendor/lib/libchromatix_s5k2m8sx_liveshot.so
+vendor/lib/libchromatix_s5k2m8sx_postproc.so
+vendor/lib/libchromatix_s5k2m8sx_preview.so
+vendor/lib/libchromatix_s5k2m8sx_snapshot.so
+vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so
+vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so
+
+# Camera configs
+etc/camera/msm8996_camera.xml
+etc/camera/s5k2m8sx_chromatix.xml
 
 # Other files (todo categorize)
 bin/hvdcp_opti
@@ -37,14 +66,6 @@ lib/libextmedia_jni.so
 lib/libmm-omxcore.so
 vendor/lib64/libTimeService.so
 vendor/lib64/sensors.maxim-bio.so
-vendor/lib/libactuator_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_default_preview_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_default_video_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_hfr_120_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_hfr_60_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_hfr_90_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so
-vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so
 vendor/lib/libois_bu24218gwl.so
 vendor/lib/libTimeService.so
 vendor/lib/sensors.maxim-bio.so
