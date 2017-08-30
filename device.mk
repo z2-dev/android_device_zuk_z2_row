@@ -28,3 +28,7 @@ $(call inherit-product, device/zuk/msm8996-common/msm8996.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.zuk.rc
