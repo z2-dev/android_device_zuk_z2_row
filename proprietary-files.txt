@@ -68,3 +68,7 @@ vendor/lib64/sensors.maxim-bio.so
 vendor/lib/libois_bu24218gwl.so
 vendor/lib/libTimeService.so
 vendor/lib/sensors.maxim-bio.so
+
+# Sensors
+etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf
