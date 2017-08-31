@@ -1,8 +1,3 @@
-# GPS
-vendor/lib64/libquipc_os_api.so
-vendor/lib/libquipc_os_api.so
-vendor/lib/libslimclient.so
-
 # Camera actuators
 vendor/lib/libactuator_ak7371.so
 
@@ -66,8 +61,6 @@ framework/oat/arm64/qti-telephony-common.odex
 framework/oat/arm64/QtiTelephonyServicelibrary.odex
 framework/oat/arm64/services.odex
 lib64/libextmedia_jni.so
-lib64/libloc_core.so
-lib64/libloc_eng.so
 lib/libextmedia_jni.so
 lib/libmm-omxcore.so
 vendor/lib64/libTimeService.so
