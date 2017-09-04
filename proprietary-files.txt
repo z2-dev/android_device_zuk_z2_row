@@ -1,3 +1,30 @@
+# Audio ACDB
+etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
+etc/acdbdata/Fluid/Fluid_General_cal.acdb
+etc/acdbdata/Fluid/Fluid_Global_cal.acdb
+etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
+etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
+etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
+etc/acdbdata/Liquid/Liquid_General_cal.acdb
+etc/acdbdata/Liquid/Liquid_Global_cal.acdb
+etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
+etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+
+# Audio libraries
+etc/drc/drc_cfg_AZ.txt
+etc/aanc_tuning_mixer.txt
+
 # Camera actuators
 vendor/lib/libactuator_ak7371.so
 
@@ -36,39 +63,31 @@ vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so
 # Camera sensors
 vendor/lib/libmmcamera_s5k2m8sx.so
 
-# Other files (todo categorize)
-bin/hvdcp_opti
-etc/calib.cfg
-etc/firmware/a225p5_pm4.fw
-etc/firmware/a225_pfp.fw
-etc/firmware/a225_pm4.fw
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
-etc/firmware/a330_pfp.fw
-etc/firmware/a330_pm4.fw
-etc/firmware/a420_pfp.fw
-etc/firmware/a420_pm4.fw
-etc/tfa98xx/coldboot.patch
-etc/tfa98xx/shenqi_music.eq
-etc/tfa98xx/shenqi_music.preset
-etc/tfa98xx/shenqi.speaker
-etc/tfa98xx/shenqi_speech.eq
-etc/tfa98xx/shenqi_speech.preset
-etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config
-etc/tfa98xx/TFA9890_N1C3_2_1_1.patch
-framework/oat/arm64/qcrilhook.odex
-framework/oat/arm64/qti-telephony-common.odex
-framework/oat/arm64/QtiTelephonyServicelibrary.odex
-framework/oat/arm64/services.odex
-lib64/libextmedia_jni.so
-lib/libextmedia_jni.so
-lib/libmm-omxcore.so
-vendor/lib64/libTimeService.so
-vendor/lib64/sensors.maxim-bio.so
+# Camera OIS
 vendor/lib/libois_bu24218gwl.so
-vendor/lib/libTimeService.so
-vendor/lib/sensors.maxim-bio.so
+
+# IMS
+etc/permissions/imscm.xml
+framework/imscmlibrary.jar
+framework/rcsimssettings.jar
+
+# Media
+vendor/lib64/libmmosal.so
+
+# RIL
+vendor/lib/libimsmedia_jni.so
 
 # Sensors
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
+etc/permissions/com.maxim.biosensor.xml
+framework/com.maxim.biosensor.jar
+-priv-app/LSF-User-Phone/LSF-User-Phone.apk
+-priv-app/LSF/LSF.apk
+-priv-app/XuiUHealth/XuiUHealth.apk
+vendor/lib/sensors.maxim-bio.so
+vendor/lib64/sensors.maxim-bio.so
+
+# Other files (todo categorize)
+bin/hvdcp_opti
+etc/calib.cfg
