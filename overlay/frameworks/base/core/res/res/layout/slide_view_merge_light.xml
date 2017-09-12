@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/slideview_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listview_x_padding" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/slideview_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <View android:id="@id/anim_space" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/slideview_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_gravity="end" android:id="@id/holder" android:background="@color/listview_x_left_menu_background_light" android:clickable="true" android:layout_width="@dimen/listview_x_left_menu_width" android:layout_height="fill_parent">
+                    <AnimTextView android:textSize="@dimen/listview_x_left_menu_text_size" android:textColor="@color/listview_x_left_menu_text_light" android:layout_gravity="center" android:id="@id/slideview_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:id="@id/anim_space_down" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </LinearLayout>
+        <ImageView android:gravity="bottom" android:id="@id/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_width_xui" android:src="?listDivider" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+    </RelativeLayout>
+</merge>

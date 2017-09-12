@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="style" name="Widget.Xui.ListView"/>
+    <add-resource type="style" name="Widget.Xui.ListViewX"/>
+    <style name="Widget.Xui.ListView" parent="@style/Widget.ListView">
+        <item name="listSelector">@drawable/list_selector_xui</item>
+        <item name="divider">?listDivider</item>
+        <item name="overScrollMode">never</item>
+        <item name="overScrollDistance">300</item>
+        <item name="overFlingDistance">300</item>
+        <item name="backToTopWhenClick">true</item>
+        <item name="showPressedDivider">true</item>
+    </style>
+    <style name="Widget.Xui.ListViewX" parent="@style/Widget.Xui.ListView">
+        <item name="category">leftSlideShowItem|longPressEditMode|rightSlide</item>
+        <item name="slideViewLayout">@layout/slide_view_merge_light</item>
+        <item name="loadingLayout">@layout/listview_x_loading</item>
+        <item name="editbarLayout">@layout/listview_x_edit_bar</item>
+        <item name="checkValidRegionWidth">@dimen/listview_x_check_valid_region_width</item>
+        <item name="leftSlideThreshold">@dimen/listview_x_left_slide_threshold</item>
+        <item name="rightSlideThreshold">@dimen/listview_x_right_slide_threshold</item>
+    </style>
+</resources>

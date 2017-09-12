@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="attr" name="backToTopWhenClick"/>
+    <add-resource type="attr" name="overFlingDistance"/>
+    <add-resource type="attr" name="overScrollDistance"/>
+    <add-resource type="attr" name="showPressedDivider"/>
+    <add-resource type="attr" name="checkValidRegionWidth"/>
+    <add-resource type="attr" name="leftSlideThreshold"/>
+    <add-resource type="attr" name="loadingLayout"/>
+    <add-resource type="attr" name="rightSlideThreshold"/>
+    <add-resource type="attr" name="slideViewLayout"/>
+    <attr name="backToTopWhenClick" format="boolean" />
+    <attr name="overFlingDistance" format="integer" />
+    <attr name="overScrollDistance" format="integer" />
+    <attr name="showPressedDivider" format="boolean" />
+    <attr name="checkValidRegionWidth" format="dimension" />
+    <attr name="leftSlideThreshold" format="dimension" />
+    <attr name="loadingLayout" format="reference" />
+    <attr name="rightSlideThreshold" format="dimension" />
+    <attr name="slideViewLayout" format="reference" />
+    <attr name="editbarLayout" format="reference" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="color" name="title_background_xui_light"/>
+    <add-resource type="color" name="title_background_xui"/>
+    <add-resource type="color" name="listview_x_left_menu_background_light"/>
+    <add-resource type="color" name="listview_x_left_menu_text_light"/>
+    <add-resource type="color" name="listview_x_loading_background"/>
+    <add-resource type="color" name="listview_x_loading_background_light"/>
+    <add-resource type="color" name="listview_x_edit_title_option_text_disabled"/>
+    <add-resource type="color" name="listview_x_edit_title_option_text"/>
+    <add-resource type="color" name="listview_x_edit_title_text"/>
+    <add-resource type="color" name="list_item_background_xui"/>
+    <add-resource type="color" name="list_item_background_focused_xui"/>
+    <color name="title_background_xui_light">#fff0f0f0</color>
+    <color name="title_background_xui">#fff0f0f0</color>
+    <color name="listview_x_left_menu_background_light">#fff34d32</color>
+    <color name="listview_x_left_menu_text_light">#fffafafa</color>
+    <color name="listview_x_loading_background">#ffededed</color>
+    <color name="listview_x_loading_background_light">#ffededed</color>
+    <color name="listview_x_edit_title_option_text_disabled">#661499f7</color>
+    <color name="listview_x_edit_title_option_text">#ff1499f7</color>
+    <color name="listview_x_edit_title_text">#ff191919</color>
+    <color name="list_item_background_xui">#fffafafa</color>
+    <color name="list_item_background_focused_xui">#0d191919</color>
+</resources>

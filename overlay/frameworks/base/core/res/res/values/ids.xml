@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="id" name="listviewx_cancel"/>
+    <add-resource type="id" name="listviewx_edit_title"/>
+    <add-resource type="id" name="listviewx_select_all"/>
+    <add-resource type="id" name="listviewx_edit_bar_divider"/>
+    <add-resource type="id" name="listview_x_loading"/>
+    <add-resource type="id" name="slideview_check"/>
+    <add-resource type="id" name="slideview_group"/>
+    <add-resource type="id" name="anim_space"/>
+    <add-resource type="id" name="slideview_content"/>
+    <add-resource type="id" name="holder"/>
+    <add-resource type="id" name="slideview_title"/>
+    <add-resource type="id" name="anim_space_down"/>
+    <add-resource type="id" name="divider"/>
+    <item type="id" name="listviewx_cancel">false</item>
+    <item type="id" name="listviewx_edit_title">false</item>
+    <item type="id" name="listviewx_select_all">false</item>
+    <item type="id" name="listviewx_edit_bar_divider">false</item>
+    <item type="id" name="listview_x_loading">false</item>
+    <item type="id" name="slideview_check">false</item>
+    <item type="id" name="slideview_group">false</item>
+    <item type="id" name="anim_space">false</item>
+    <item type="id" name="slideview_content">false</item>
+    <item type="id" name="holder">false</item>
+    <item type="id" name="slideview_title">false</item>
+    <item type="id" name="anim_space_down">false</item>
+    <item type="id" name="divider">false</item>
+</resources>

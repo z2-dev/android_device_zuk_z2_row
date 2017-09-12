@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="string" name="widget_x_title_cancel"/>
+    <add-resource type="string" name="listview_x_title_select_all"/>
+    <string name="widget_x_title_cancel">Cancel</string>
+    <string name="listview_x_title_select_all">Select All</string>
+</resources>
