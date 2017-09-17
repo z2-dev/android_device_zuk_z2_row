@@ -97,7 +97,7 @@ etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/permissions/com.maxim.biosensor.xml
 framework/com.maxim.biosensor.jar
--priv-app/LSF-User-Phone/LSF-User-Phone.apk
+-priv-app/LSF-User-Phone/LSF-User-Phone.apk|de0fda389400a8741becd315cde649357ecfe8b9
 -priv-app/LSF/LSF.apk
 -priv-app/XuiUHealth/XuiUHealth.apk
 vendor/lib/sensors.maxim-bio.so
