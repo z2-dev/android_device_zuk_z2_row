@@ -36,3 +36,10 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.zuk.rc
+
+# System properties
+PRODUCT_PROPERTY_OVERRIDES += \
+# Graphics
+    ro.sf.lcd_density=460 \
+# Display (Qualcomm AD)
+    ro.qualcomm.cabl=0
