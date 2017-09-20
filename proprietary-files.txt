@@ -83,5 +83,4 @@ vendor/lib/sensors.maxim-bio.so
 vendor/lib64/sensors.maxim-bio.so
 
 # Other files (todo categorize)
-bin/hvdcp_opti
 etc/calib.cfg
