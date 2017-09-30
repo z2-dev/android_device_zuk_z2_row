@@ -1,0 +1,11 @@
+# Device-specific init script for zuk msm8996 devices
+
+service hvdcp_opti /system/bin/hvdcp_opti
+    class main
+    user root
+    group root
+
+on charger
+    wait /dev/block/bootdevice/by-name/system
+    mount ext4 /dev/block/bootdevice/by-name/system /system ro barrier=1
+    start hvdcp_opti
