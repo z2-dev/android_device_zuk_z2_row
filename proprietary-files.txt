@@ -78,7 +78,7 @@ etc/permissions/com.maxim.biosensor.xml
 framework/com.maxim.biosensor.jar
 -priv-app/LSF-User-Phone/LSF-User-Phone.apk|de0fda389400a8741becd315cde649357ecfe8b9
 -priv-app/LSF/LSF.apk
--priv-app/XuiUHealth/XuiUHealth.apk
+-priv-app/XuiUHealth/XuiUHealth.apk|b468cb2818c5ea3541594538db393b41fc5963da
 vendor/lib/sensors.maxim-bio.so
 vendor/lib64/sensors.maxim-bio.so
 
