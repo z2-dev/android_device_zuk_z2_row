@@ -72,13 +72,20 @@ vendor/lib64/libmmosal.so
 vendor/lib/libimsmedia_jni.so
 
 # Sensors
+bin/sensorservice
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/permissions/com.maxim.biosensor.xml
 framework/com.maxim.biosensor.jar
--priv-app/LSF-User-Phone/LSF-User-Phone.apk|de0fda389400a8741becd315cde649357ecfe8b9
--priv-app/LSF/LSF.apk
--priv-app/XuiUHealth/XuiUHealth.apk|b468cb2818c5ea3541594538db393b41fc5963da
+-priv-app/XuiUHealth/XuiUHealth.apk|59a276a0913333448da66b61503135efccf10afd
+lib/libsensorservice.so
+lib/libmaximsensor-jni.so
+lib/libmaximsensormgr-jni.so
+lib64/libsensorservice.so
+lib64/libmaximsensor-jni.so
+lib64/libmaximsensormgr-jni.so
+vendor/lib64/libmxbio.so
+vendor/lib64/libmxbio_uv.so
 vendor/lib/sensors.maxim-bio.so
 vendor/lib64/sensors.maxim-bio.so
 
