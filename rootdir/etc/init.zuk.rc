@@ -1,4 +1,4 @@
-# Device-specific init script for zuk msm8996 devices
+# Device-specific init script for z2_row
 
 service hvdcp_opti /system/bin/hvdcp_opti
     class main
@@ -9,3 +9,14 @@ on charger
     wait /dev/block/bootdevice/by-name/system
     mount ext4 /dev/block/bootdevice/by-name/system /system ro barrier=1
     start hvdcp_opti
+
+on init
+    chown system system /sys/class/sensors/ppg/eol_test
+    chown system system /sys/class/sensors/ppg/eol_test_result
+    chown system system /sys/class/sensors/ppg/eol_test_status
+    chown system system /sys/class/sensors/ppg/led_current
+    chown system system /sys/class/sensors/ppg/led_current1
+    chown system system /sys/class/sensors/ppg/led_current2
+    chown system system /sys/class/sensors/ppg/led_current3
+    chown system system /sys/class/sensors/ppg/led_current4
+    chown system system /sys/class/sensors/uv/uv_eol_test

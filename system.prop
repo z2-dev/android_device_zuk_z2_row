@@ -2,4 +2,5 @@
 ro.qualcomm.cabl=0
 # Graphics
 ro.sf.lcd_density=460
-
+# Sensors
+system_init.startsensorservice=1
