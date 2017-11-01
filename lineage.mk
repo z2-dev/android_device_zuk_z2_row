@@ -39,7 +39,7 @@ TARGET_VENDOR_DEVICE_NAME := z2_row
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=z2_row \
     PRODUCT_NAME=z2_row \
-    BUILD_FINGERPRINT=ZUK/z2_row/z2_row:7.0/NRD90M/2.5.462_170705:user/release-keys \
-    PRIVATE_BUILD_DESC="z2_row-user 7.0 NRD90M 2.5.462_170705 release-keys"
+    BUILD_FINGERPRINT=ZUK/z2_row/z2_row:7.0/NRD90M/3.1.187_171023:user/release-keys \
+    PRIVATE_BUILD_DESC="z2_row-user 7.0 NRD90M 3.1.187_171023 release-keys"
 
 TARGET_VENDOR := ZUK
