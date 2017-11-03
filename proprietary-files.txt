@@ -77,7 +77,9 @@ etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/permissions/com.maxim.biosensor.xml
 framework/com.maxim.biosensor.jar
--priv-app/XuiUHealth/XuiUHealth.apk|59a276a0913333448da66b61503135efccf10afd
+-priv-app/LSF-User-Phone/LSF-User-Phone.apk|6af59f07da5f2fa81e2616ca95799b5020b3185f
+-priv-app/LSF/LSF.apk
+-priv-app/XuiUHealth/XuiUHealth.apk|3576cb201879c5c3271b01637e67d58f3119bac8
 lib/libsensorservice.so
 lib/libmaximsensor-jni.so
 lib/libmaximsensormgr-jni.so
