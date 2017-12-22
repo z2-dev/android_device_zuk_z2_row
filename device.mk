@@ -24,16 +24,15 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
+
 PRODUCT_PACKAGES += \
     audio_amplifier.msm8996 \
 
 # Inherit from msm8996-common
 $(call inherit-product, device/zuk/msm8996-common/msm8996.mk)
-
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
