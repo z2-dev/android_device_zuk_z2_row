@@ -23,6 +23,4 @@
     <integer name="def_screen_brightness">51</integer>
     <!-- Default for UI touch haptic feedback enabled -->
     <bool name="def_haptic_feedback">false</bool>
-    <!-- Music headset Volume,its value is from 0 to 15,default value is 11 -->
-    <integer name="def_music_headset_volume" translatable="false">7</integer>
 </resources>
