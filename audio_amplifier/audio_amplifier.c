@@ -98,9 +98,6 @@ static int amp_dev_close(hw_device_t *device) {
 }
 
 static int amp_init(tfa9890_device_t *tfa9890) {
-    size_t i;
-    int subscribe = 1;
-
     tfa9890->init(SAMPLE_RATE);
 
     return 0;
