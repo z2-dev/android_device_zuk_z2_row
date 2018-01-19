@@ -10,6 +10,7 @@ LOCAL_C_INCLUDES += \
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_SHARED_LIBRARIES := liblog libutils libcutils libdl
+LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter
 
 LOCAL_SRC_FILES := audio_amplifier.c
 

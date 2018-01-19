@@ -68,7 +68,7 @@ static int is_voice_speaker(uint32_t snd_device) {
     return snd_device == SND_DEVICE_OUT_VOICE_SPEAKER;
 }
 
-static int amp_enable_output_devices(hw_device_t *device, uint32_t devices, bool enable) {
+static int amp_enable_output_devices(amplifier_device_t *device, uint32_t devices, bool enable) {
     tfa9890_device_t *tfa9890 = (tfa9890_device_t*) device;
 
     if (is_speaker(devices)) {
@@ -124,7 +124,7 @@ static int amp_module_open(const hw_module_t *module,
     tfa9890_dev->amp_dev.common.version = HARDWARE_DEVICE_API_VERSION(1, 0);
     tfa9890_dev->amp_dev.common.close = amp_dev_close;
 
-    tfa9890_dev->amp_dev.enable_output_devices = amp_enable_output_devices;
+    tfa9890_dev->amp_dev.enable_output_devices = &amp_enable_output_devices;
 
     tfa9890_dev->lib_ptr = dlopen("libtfa98xx.so", RTLD_NOW);
     if (!tfa9890_dev->lib_ptr) {
