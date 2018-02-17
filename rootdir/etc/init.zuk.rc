@@ -1,13 +1,5 @@
 # Device-specific init script for z2_row
 
-service hvdcp_opti /system/vendor/bin/hvdcp_opti
-    class main
-    user root
-    group root
-
-on charger
-    start hvdcp_opti
-
 on init
     chown system system /sys/class/sensors/ppg/eol_test
     chown system system /sys/class/sensors/ppg/eol_test_result
